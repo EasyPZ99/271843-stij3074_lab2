@@ -14,7 +14,7 @@ if (isset($_GET['pageno'])) {
 
 }
 
-include_once("../dbconnect.php");
+include_once("dbconnect.php");
 
 ?>
 
@@ -89,7 +89,7 @@ body, html {
     <a href="#portfolio" class="w3-bar-item w3-button w3-padding-5 w3-black w3-animate-opacity w3-hide-small"><i class="fa fa-th"></i> ISI KANDUNGAN</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-5 w3-black w3-animate-opacity w3-hide-small"><i class="fa fa-envelope"></i> HUBUNGI KAMI</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-    <a href="http://localhost/assgn/login.php" class="w3-bar-item w3-button w3-black w3-animate-opacity">LOGIN</a>
+    <a href="login.php" class="w3-bar-item w3-button w3-black w3-animate-opacity">LOGIN</a>
     <a href="#logout" class="w3-bar-item w3-button w3-black w3-right w3-animate-opacity">LOGOUT</a>
     </a>
   </div>
