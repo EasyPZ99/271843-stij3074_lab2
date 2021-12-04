@@ -11,7 +11,7 @@ if (isset($_POST["submit"])) {
         session_start();
         $_SESSION["sessionid"] = session_id();
         echo "<script>alert('Login Success');</script>";
-        echo "<script> window.location.replace('php/mainpage.php')</script>";
+        echo "<script> window.location.replace('mainpage.php')</script>";
     } else {
         echo "<script>alert('Login Failed');</script>";
     }
